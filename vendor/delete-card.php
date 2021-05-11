@@ -9,5 +9,5 @@
 		mysqli_query($connect, "DELETE FROM `products` WHERE `products`.`id` = +$index");
 	}
 
-	header('location: http://127.0.0.1/test/index.php');
+	header('location: /');
 ?>

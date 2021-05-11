@@ -14,5 +14,5 @@
 
 	mysqli_query($connect, "INSERT INTO `products` (`id`, `sku`, `name`, `prise`, `type switcher`, `size`, `weight`, `height`, `width`, `length`) VALUES (NULL, '$sku', '$name', '$prise', '$type_switcher', '$size', '$weight', '$height', '$width', '$length')");
 
-	header('location: http://127.0.0.1/test/index.php');
+	header('location: /');
 ?>

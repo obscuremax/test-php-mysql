@@ -1,8 +1,4 @@
-	<?php
-		require_once 'vendor/connect.php';
-	?>
-	
-	<?php
+<?php
 		$products = mysqli_query($connect, "SELECT * FROM `products`");
 		$products = mysqli_fetch_all($products);
 		foreach ($products as $product) {
@@ -27,5 +23,3 @@
 			<?php
 		}
 	?>
-	
-	
